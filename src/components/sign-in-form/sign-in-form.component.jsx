@@ -1,6 +1,5 @@
 import { useState } from "react";
 import {
-  createAuthUserWithEmailAndPassword,
   signInWithGooglePopup,
   createUserDocFromAuth,
   signInAuthWithEmailAndPassword,
@@ -34,15 +33,14 @@ const SignInForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    
+
     try {
-      const response = await signInAuthWithEmailAndPassword(email, password);
-      console.log(response);
+      const { user } = await signInAuthWithEmailAndPassword(email, password);
       resetFormFields();
     } catch (error) {
-
-      console.log(error.code)
-      if (error.code == "auth/invalid-credential") alert('Incorrect credentials');
+      console.log(error.code);
+      if (error.code == "auth/invalid-credential")
+        alert("Incorrect credentials");
     }
   };
 
@@ -73,7 +71,7 @@ const SignInForm = () => {
 
         <div className="buttons-container">
           <Button type="submit">Sign In</Button>
-          <Button type ="button" buttonType="google" onClick={signInWithGoogle}>
+          <Button type="button" buttonType="google" onClick={signInWithGoogle}>
             Google sign in
           </Button>
         </div>

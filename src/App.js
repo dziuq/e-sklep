@@ -3,9 +3,7 @@ import Home from "./routes/home/home.component";
 import NavBar from "./routes/nav-bar/nav-bar.component";
 import Authentication from "./routes/authentication/authentication.component";
 
-const Shop = () => {
-  return <h1>siema</h1>;
-};
+import Shop from "./routes/shop/shop.component";
 
 const App = () => {
   return (
