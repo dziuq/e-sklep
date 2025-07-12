@@ -5,9 +5,13 @@ import { useContext } from "react";
 import "./nav-bar.styles.scss";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
 import { ReactComponent as Logo } from "../../assets/logo-unistop.svg";
+import CartIcon from "../../components/cart-icon/cart-icon.component";
+import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
+import { CartContext } from "../../contexts/cart.context";
 
 const NavBar = () => {
   const { currentUser } = useContext(UserContext);
+  const { isCartOpen } = useContext(CartContext);
 
   return (
     <Fragment>
@@ -22,15 +26,17 @@ const NavBar = () => {
 
           {currentUser ? (
             <span className="nav-link" onClick={signOutUser}>
-              {' '}
-              SIGN OUT{' '}
+              {" "}
+              SIGN OUT{" "}
             </span>
           ) : (
             <Link className="nav-link" to="/auth">
               SIGN IN
             </Link>
           )}
+          <CartIcon />
         </div>
+        {isCartOpen && <CartDropdown />}
       </div>
       <Outlet />
     </Fragment>
