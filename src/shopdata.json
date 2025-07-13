@@ -2,224 +2,224 @@
   {
     "id": 1,
     "numer_znaku": "A-1",
-    "nazwa": "Niebezpieczny zakręt w prawo",
+    "name": "Niebezpieczny zakręt w prawo",
     "obraz": "/images/ostrzegawcze/A-1.png",
     "price": 150
   },
   {
     "id": 2,
     "numer_znaku": "A-2",
-    "nazwa": "Niebezpieczny zakręt w lewo",
+    "name": "Niebezpieczny zakręt w lewo",
     "obraz": "/images/ostrzegawcze/A-2.png",
     "price": 150
   },
   {
     "id": 3,
     "numer_znaku": "A-3",
-    "nazwa": "Niebezpieczne zakręty – pierwszy w prawo",
+    "name": "Niebezpieczne zakręty – pierwszy w prawo",
     "obraz": "/images/ostrzegawcze/A-3.png",
     "price": 150
   },
   {
     "id": 4,
     "numer_znaku": "A-4",
-    "nazwa": "Niebezpieczne zakręty – pierwszy w lewo",
+    "name": "Niebezpieczne zakręty – pierwszy w lewo",
     "obraz": "/images/ostrzegawcze/A-4.png",
     "price": 150
   },
   {
     "id": 5,
     "numer_znaku": "A-5",
-    "nazwa": "Wzniesienie",
+    "name": "Wzniesienie",
     "obraz": "/images/ostrzegawcze/A-5.png",
     "price": 150
   },
   {
     "id": 6,
     "numer_znaku": "A-6a",
-    "nazwa": "Skrzyżowanie z drogą podporządkowaną występującą po obu stronach",
+    "name": "Skrzyżowanie z drogą podporządkowaną występującą po obu stronach",
     "obraz": "/images/ostrzegawcze/A-6a.png",
     "price": 150
   },
   {
     "id": 7,
     "numer_znaku": "A-6b",
-    "nazwa": "Skrzyżowanie z drogą podporządkowaną występującą po prawej stronie",
+    "name": "Skrzyżowanie z drogą podporządkowaną występującą po prawej stronie",
     "obraz": "/images/ostrzegawcze/A-6b.png",
     "price": 150
   },
   {
     "id": 8,
     "numer_znaku": "A-6c",
-    "nazwa": "Skrzyżowanie z drogą podporządkowaną występującą po lewej stronie",
+    "name": "Skrzyżowanie z drogą podporządkowaną występującą po lewej stronie",
     "obraz": "/images/ostrzegawcze/A-6b.png",
     "price": 150
   },
   {
     "id": 9,
     "numer_znaku": "A-6d",
-    "nazwa": "Wlot drogi jednokierunkowej z prawej strony",
+    "name": "Wlot drogi jednokierunkowej z prawej strony",
     "obraz": "/images/ostrzegawcze/A-6d.png",
     "price": 150
   },
   {
     "id": 10,
     "numer_znaku": "A-6e",
-    "nazwa": "Wlot drogi jednokierunkowej z lewej strony",
+    "name": "Wlot drogi jednokierunkowej z lewej strony",
     "obraz": "/images/ostrzegawcze/A-6e.png",
     "price": 150
   },
   {
     "id": 11,
     "numer_znaku": "A-7",
-    "nazwa": "Ustąp pierwszeństwa",
+    "name": "Ustąp pierwszeństwa",
     "obraz": "/images/ostrzegawcze/A-7.png",
     "price": 150
   },
   {
     "id": 12,
     "numer_znaku": "A-8",
-    "nazwa": "Skrzyżowanie o ruchu okrężnym",
+    "name": "Skrzyżowanie o ruchu okrężnym",
     "obraz": "/images/ostrzegawcze/A-8.png",
     "price": 150
   },
   {
     "id": 13,
     "numer_znaku": "A-9",
-    "nazwa": "Przejazd kolejowy z zaporami",
+    "name": "Przejazd kolejowy z zaporami",
     "obraz": "/images/ostrzegawcze/A-9.png",
     "price": 150
   },
   {
     "id": 14,
     "numer_znaku": "A-10",
-    "nazwa": "Przejazd kolejowy bez zapór",
+    "name": "Przejazd kolejowy bez zapór",
     "obraz": "/images/ostrzegawcze/A-10.png",
     "price": 150
   },
   {
     "id": 15,
     "numer_znaku": "A-11",
-    "nazwa": "Znak ostrzegający o ruchu tramwajowym",
+    "name": "Znak ostrzegający o ruchu tramwajowym",
     "obraz": "/images/ostrzegawcze/A-11.png",
     "price": 150
   },
   {
     "id": 16,
     "numer_znaku": "A-11a",
-    "nazwa": "Znak ostrzegający o linii napowietrznej",
+    "name": "Znak ostrzegający o linii napowietrznej",
     "obraz": "/images/ostrzegawcze/A-11a.png",
     "price": 150
   },
   {
     "id": 17,
     "numer_znaku": "A-12a",
-    "nazwa": "Zwężenie jezdni – obustronne",
+    "name": "Zwężenie jezdni – obustronne",
     "obraz": "/images/ostrzegawcze/A-12a.png",
     "price": 150
   },
   {
     "id": 18,
     "numer_znaku": "A-12b",
-    "nazwa": "Zwężenie jezdni – prawostronne",
+    "name": "Zwężenie jezdni – prawostronne",
     "obraz": "/images/ostrzegawcze/A-12b.png",
     "price": 150
   },
   {
     "id": 19,
     "numer_znaku": "A-12c",
-    "nazwa": "Zwężenie jezdni – lewostronne",
+    "name": "Zwężenie jezdni – lewostronne",
     "obraz": "/images/ostrzegawcze/A-12c.png",
     "price": 150
   },
   {
     "id": 20,
     "numer_znaku": "A-13",
-    "nazwa": "Ruchomy most",
+    "name": "Ruchomy most",
     "obraz": "/images/ostrzegawcze/A-13.png",
     "price": 150
   },
   {
     "id": 21,
     "numer_znaku": "A-14",
-    "nazwa": "Sygnalizacja świetlna",
+    "name": "Sygnalizacja świetlna",
     "obraz": "/images/ostrzegawcze/A-14.png",
     "price": 150
   },
   {
     "id": 22,
     "numer_znaku": "A-15",
-    "nazwa": "Śliska jezdnia",
+    "name": "Śliska jezdnia",
     "obraz": "/images/ostrzegawcze/A-15.png",
     "price": 150
   },
   {
     "id": 23,
     "numer_znaku": "A-16",
-    "nazwa": "Przejście dla pieszych",
+    "name": "Przejście dla pieszych",
     "obraz": "/images/ostrzegawcze/A-16.png",
     "price": 150
   },
   {
     "id": 24,
     "numer_znaku": "A-17",
-    "nazwa": "Dzieci",
+    "name": "Dzieci",
     "obraz": "/images/ostrzegawcze/A-17.png",
     "price": 150
   },
   {
     "id": 25,
     "numer_znaku": "A-18a",
-    "nazwa": "Zwierzęta gospodarskie",
+    "name": "Zwierzęta gospodarskie",
     "obraz": "/images/ostrzegawcze/A-18a.png",
     "price": 150
   },
   {
     "id": 26,
     "numer_znaku": "A-18b",
-    "nazwa": "Zwierzęta dzikie",
+    "name": "Zwierzęta dzikie",
     "obraz": "/images/ostrzegawcze/A-18b.png",
     "price": 150
   },
   {
     "id": 27,
     "numer_znaku": "A-19",
-    "nazwa": "Boczny wiatr",
+    "name": "Boczny wiatr",
     "obraz": "/images/ostrzegawcze/A-19.png",
     "price": 150
   },
   {
     "id": 28,
     "numer_znaku": "A-20",
-    "nazwa": "Odłamki skalne",
+    "name": "Odłamki skalne",
     "obraz": "/images/ostrzegawcze/A-20.png",
     "price": 150
   },
   {
     "id": 29,
     "numer_znaku": "A-21",
-    "nazwa": "Tramwaj",
+    "name": "Tramwaj",
     "obraz": "/images/ostrzegawcze/A-21.png",
     "price": 150
   },
   {
     "id": 30,
     "numer_znaku": "A-22",
-    "nazwa": "Niebezpieczny zjazd",
+    "name": "Niebezpieczny zjazd",
     "obraz": "/images/ostrzegawcze/A-22.png",
     "price": 150
   },
   {
     "id": 31,
     "numer_znaku": "A-23",
-    "nazwa": "Rowerzyści",
+    "name": "Rowerzyści",
     "obraz": "/images/ostrzegawcze/A-23.png",
     "price": 150
   },
   {
     "id": 32,
     "numer_znaku": "A-24",
-    "nazwa": "Roboty na drodze",
+    "name": "Roboty na drodze",
     "obraz": "/images/ostrzegawcze/A-24.png",
     "price": 150
   }
