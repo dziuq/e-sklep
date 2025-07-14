@@ -30,7 +30,7 @@
   {
     "id": 5,
     "numer_znaku": "A-5",
-    "name": "Wzniesienie",
+    "name": "Skrzyżowanie dróg",
     "obraz": "/images/ostrzegawcze/A-5.png",
     "price": 150
   },
@@ -100,14 +100,14 @@
   {
     "id": 15,
     "numer_znaku": "A-11",
-    "name": "Znak ostrzegający o ruchu tramwajowym",
+    "name": "Znak ostrzegający o nierównej drodze",
     "obraz": "/images/ostrzegawcze/A-11.png",
     "price": 150
   },
   {
     "id": 16,
     "numer_znaku": "A-11a",
-    "name": "Znak ostrzegający o linii napowietrznej",
+    "name": "Znak ostrzegający o progu zwalniającym",
     "obraz": "/images/ostrzegawcze/A-11a.png",
     "price": 150
   },
