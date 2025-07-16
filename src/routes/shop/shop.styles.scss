@@ -1,7 +1,12 @@
-.products-container{
-    display: grid;
-    grid-template-columns: repeat(8, 2fr);
-    column-gap:  10x;
-    row-gap: 0px;
-    margin: 60px;
+.categories-container {
+  display: grid;
+  grid-template-columns: repeat(6, 2fr);
+  column-gap: 10x;
+  row-gap: 0px;
+  margin: 60px;
+}
+.category-title {
+  text-align: center;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 64px;
 }
