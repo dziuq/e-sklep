@@ -9,8 +9,11 @@ export const BackgroundImage = styled.div`
 `;
 
 export const Body = styled.div`
-  height: 90px;
+  height: 130px;
   padding: 0 25px;
+  width: 100%;
+  max-width: 300px;
+  min-width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +25,8 @@ export const Body = styled.div`
 
   h2 {
     font-weight: bold;
-    margin: 0 6px 0;
+    text-align: center;
+    margin: 15px 6px 0;
     font-size: 18px;
     color: #ff0000;
     font-family: "Open-Sans";
@@ -45,6 +49,7 @@ export const DirectoryItemContainer = styled.div`
   border: 1px solid black;
   margin: 0 7.5px 15px;
   overflow: hidden;
+  position: relative;
 
   &:hover {
     cursor: pointer;
