@@ -1,6 +1,6 @@
 const SHOP_DATA = [
   {
-    title: "Znaki ostrzegawcze",
+    title: "Znaki-ostrzegawcze",
     items: [
       {
         id: 1,
@@ -229,7 +229,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "Znaki dodatkowe",
+    title: "Znaki-dodatkowe",
     items: [
       {
         id: 33,
@@ -297,7 +297,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "Znaki zakazu",
+    title: "Znaki-zakazu",
     items: [
       {
         id: 42,
@@ -568,7 +568,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "Znaki nakazu",
+    title: "Znaki-nakazu",
     items: [
       {
         id: 80,
@@ -720,7 +720,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "Znaki uzupełniajace",
+    title: "Znaki-uzupełniajace",
     items: [
       {
         id: 101,
@@ -900,7 +900,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "Znaki kierunku i miejscowości",
+    title: "Znaki-kierunku-i-miejscowości",
     items: [
       {
         id: 200,
@@ -1199,7 +1199,7 @@ const SHOP_DATA = [
     ],
   },
   {
-    title: "Znaki informacyjne",
+    title: "Znaki-informacyjne",
     items: [
       {
         id: 242,
