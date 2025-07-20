@@ -51,9 +51,12 @@
     .name {
       font-weight: 600;
       margin-bottom: 4px;
+      overflow: hidden;
+      max-height: 100px;
+
     }
 
-    .price {
+    .price { 
       font-size: 15px;
       color: #555;
     }
