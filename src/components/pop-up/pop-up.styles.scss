@@ -1,0 +1,35 @@
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); // półprzezroczyste tło
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; // nad wszystkim
+
+  .popup-content {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    max-width: 90%;
+    width: 700px;
+    height: 200px;
+
+    .title{
+      font-size: 20px;
+    }
+    
+  }
+
+  .popup-buttons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+}

@@ -51,6 +51,7 @@ export const CartProvider = ({ children }) => {
   const [cartItems, setCartItems] = useState([]);
   const [cartCount, setCartCount] = useState(0);
   const [cartTotal, setCartTotal] = useState(0);
+  const [shouldShowPopup, setShouldShowPopup] = useState(false);
 
   useEffect(() => {
     const newCartCount = cartItems.reduce(
@@ -71,7 +72,12 @@ export const CartProvider = ({ children }) => {
   }, [cartItems]);
 
   const addItemToCart = (productToAdd) => {
+    const wasCartEmpty = cartCount === 0;
+
     setCartItems(addCartItem(cartItems, productToAdd));
+    if (wasCartEmpty) {
+      setShouldShowPopup(true);
+    }
   };
 
   const removeItemFromCart = (cartItemToRemove) => {
@@ -90,7 +96,9 @@ export const CartProvider = ({ children }) => {
     cartItems,
     cartCount,
     clearItemFromCart,
-    cartTotal
+    cartTotal,
+    shouldShowPopup,
+    setShouldShowPopup,
   };
 
   return <CartContext.Provider value={value}>{children}</CartContext.Provider>;
