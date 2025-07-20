@@ -3,6 +3,10 @@
   grid-template-columns: repeat(4, 2fr);
   column-gap: 20px;
   row-gap: 50px;
+
+  @media (max-width: 768px) {
+    grid-template-columns: repeat(2, 2fr);
+  }
 }
 
 .category-preview-title {
