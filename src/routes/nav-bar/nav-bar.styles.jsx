@@ -2,17 +2,22 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavBarContainer = styled.div`
+position: sticky;
+  top: 0;
+  z-index: 1000;
   height: 70px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   margin-bottom: 25px;
+  background-color: white;
+  border: 1px solid black;
 `;
 
 export const LogoContainer = styled(Link)`
   height: 100%;
   width: 470px;
-  padding: 25px;
+  padding: 10px;
 
   svg {
     width: 100%;
