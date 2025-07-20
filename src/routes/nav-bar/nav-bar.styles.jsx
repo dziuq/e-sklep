@@ -2,7 +2,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const NavBarContainer = styled.div`
-position: sticky;
+  position: sticky;
   top: 0;
   z-index: 1000;
   height: 70px;
@@ -24,6 +24,12 @@ export const LogoContainer = styled(Link)`
     height: auto;
     max-width: 240px;
     max-height: 50px;
+
+    @media (max-width: 768px) {
+      width: 80%;
+      height: auto;
+      padding: 6px;
+    }
   }
 `;
 

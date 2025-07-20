@@ -23,10 +23,10 @@ const CartDropdown = () => {
             <CartItem key={cartItem.id} cartItem={cartItem} />
           ))
         ) : (
-          <EmptyMessage>Your cart is empty</EmptyMessage>
+          <EmptyMessage>Twój koszyk jest pusty.</EmptyMessage>
         )}
       </CartItems>
-      <Button buttonType="inverted" onClick={goToCheckoutHandler}>CHECKOUT</Button>
+      <Button buttonType="inverted" onClick={goToCheckoutHandler}>DO KASY!</Button>
     </CartDropdownContainter>
   );
 };

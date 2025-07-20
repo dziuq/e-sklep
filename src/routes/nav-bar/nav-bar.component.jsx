@@ -26,7 +26,7 @@ const NavBar = () => {
           <Logo className="logo" />
         </LogoContainer>
         <NavLinks>
-          <NavLink to="/shop">SHOP</NavLink>
+          <NavLink to="/shop">OFERTA</NavLink>
 
           {currentUser ? (
             <NavLink as="span" onClick={signOutUser}>
@@ -34,7 +34,7 @@ const NavBar = () => {
               SIGN OUT{" "}
             </NavLink>
           ) : (
-            <NavLink to="/auth">SIGN IN</NavLink>
+            <NavLink to="/auth">ZALOGUJ</NavLink>
           )}
           <CartIcon />
         </NavLinks>

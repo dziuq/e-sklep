@@ -1,74 +1,50 @@
 import styled from "styled-components";
 
-export const BackgroundImage = styled.div`
-  width: 100%;
-  height: 100%;
-  background-size: cover;
-  background-position: center;
-  background-image: ${({ imageUrl }) => `url(${imageUrl})`};
-`;
+export const DirectoryItemContainer = styled.div`
+  width: 300px;
+  height: 320px;
+  margin: 1rem;
+  border-radius: 16px;
+  background-color: #1e1e1e;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 
-export const Body = styled.div`
-  height: 130px;
-  padding: 0 25px;
-  width: 100%;
-  max-width: 300px;
-  min-width: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
-  background-color: white;
-  opacity: 0.7;
-  position: absolute;
 
-  h2 {
-    font-weight: bold;
-    text-align: center;
-    margin: 15px 6px 0;
-    font-size: 18px;
-    color: #ff0000;
-    font-family: "Open-Sans";
-    text-transform: uppercase
+  &:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 12px rgba(255, 0, 0, 0.4);
   }
 
-  p {
-    font-weight: lighter;
-    font-size: 16px;
+  @media (max-width: 768px) {
+    width: 200px;
+    height: 220px;
   }
 `;
 
-export const DirectoryItemContainer = styled.div`
-  min-width: 30%;
-  height: 240px;
-  flex: 1 1 auto;
+export const BackgroundImage = styled.img`
+  width: 64px;
+  height: 64px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+`;
+
+export const Body = styled.div`
   display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  border: 1px solid black;
-  margin: 0 7.5px 15px;
-  overflow: hidden;
-  position: relative;
 
-  &:hover {
-    cursor: pointer;
-
-    & ${BackgroundImage} {
-      transform: scale(1.1);
-      transition: transform 6s cubic-bezier(0.25, 0.45, 0.45, 0.95);
-    }
-
-    & ${Body} {
-      opacity: 0.9;
-    }
-
-    &:first-child {
-      margin-right: 7.5px;
-    }
-
-    &:last-child {
-      margin-left: 7.5px;
-    }
+  h2 {
+    font-size: 1rem;
+    color: #ffffff;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    text-align: center;
   }
 `;

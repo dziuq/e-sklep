@@ -9,14 +9,11 @@ const DirectoryItem = ({ category }) => {
 
   return(
     <DirectoryItemContainer onClick={onNavigateHandler}>
-      <BackgroundImage
-        imageUrl = {imageSrc}
-      />
-      <Body>
-        <h2>{title}</h2>
-        <p>Zamów teraz</p>
-      </Body>
-    </DirectoryItemContainer>
+    <BackgroundImage src={imageSrc} alt={title} />
+    <Body>
+      <h2>{title}</h2>
+    </Body>
+  </DirectoryItemContainer>
   );
 };
 
