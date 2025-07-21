@@ -1,23 +1,29 @@
 # 🛒 e-sklep
 
-e-sklep to frontendowa aplikacja sklepu internetowego zbudowana w React. Projekt znajduje się w fazie rozwoju – planowane są m.in. funkcje koszyka, integracja płatności oraz zarządzanie produktami.
+e-sklep to frontendowa aplikacja sklepu internetowego zbudowana w React.
 
-## 📦 Technologie
+📦 Technologie
 
-- [React](https://reactjs.org/)
-- [Firebase](https://firebase.google.com/) – autoryzacja i baza danych
-- [React Router](https://reactrouter.com/) – routing 
+* [React](https://reactjs.org/)
+* [Firebase](https://firebase.google.com/) – autoryzacja i baza danych
+* [React Router](https://reactrouter.com/) – routing
+* Styled-Components - stylizacja komponentów
+* 
 
-🧩 Funkcje (w trakcie implementacji)
- Logowanie i rejestracja użytkownika przez Firebase
+🧩 Funkcje
+Logowanie i rejestracja użytkownika przez Firebase
 
- Koszyk z możliwością dodawania i usuwania produktów
+Koszyk z możliwością dodawania i usuwania produktów
 
- Zmiana ilości produktów w koszyku
+Zmiana ilości produktów w koszyku
 
- Integracja z systemem płatności (np. Stripe)
 
- Panel administratora do zarządzania produktami (opcjonalnie)
+
+TODO:
+
+Integracja z systemem płatności (np. Stripe) 
+
+Panel administratora do zarządzania produktami (opcjonalnie)
 
 🔐 Konfiguracja Firebase
 
@@ -29,3 +35,4 @@ Masz pomysł na nową funkcję lub chcesz pomóc? Zapraszam do forka, zgłoszeń
 
 📄 Licencja
 Obecnie brak licencji – domyślnie obowiązują pełne prawa autorskie (all rights reserved).
+
