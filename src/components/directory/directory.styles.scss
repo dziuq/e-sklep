@@ -10,6 +10,14 @@
     padding: 0.1rem;
 
   }
+
+  @media (max-width: 480px) {
+    grid-template-columns: repeat(2, 1fr); /* max 2 kolumny */
+  }
+
+  @media (max-width: 360px) {
+    grid-template-columns: 1fr; /* 1 kolumna na najmniejszych ekranach */
+  }
 }
 
 .directory-title {
@@ -19,4 +27,8 @@
   margin-bottom: 1rem;
   text-transform: uppercase;
   margin: 10px;
+
+   @media (max-width: 480px) {
+    text-align: center;
+  }
 }

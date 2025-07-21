@@ -24,25 +24,25 @@ const categories = [
   {
     id: 4,
     title: "Znaki informacyjne",
-    imageSrc: "/images/znaki-informacyjne-drogowe.jpg",
+    imageSrc: "/images/informacyjne.png",
     route: "shop/znaki-informacyjne",
   },
   {
     id: 5,
     title: "Znaki kierunku i miejscowości",
-    imageSrc: "/images/znaki-miejscowosci-kierunku-drogowe.jpg",
+    imageSrc: "/images/kierunku_i_miejscowosci.png",
     route: "shop/znaki-kierunku-i-miejscowości",
   },
   {
     id: 6,
     title: "Znaki uzupełniające",
-    imageSrc: "/images/znaki-uzupelniajace.jpg",
+    imageSrc: "/images/uzupelniajace.png",
     route: "shop/znaki-uzupełniajace",
   },
   {
     id: 7,
     title: "Znaki dodatkowe",
-    imageSrc: "/images/znaki-dodatkowe.jpg",
+    imageSrc: "/images/dodatkowe.png",
     route: "shop/znaki-dodatkowe",
   },
 ];

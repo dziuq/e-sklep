@@ -1,8 +1,10 @@
 import styled from "styled-components";
 
 export const DirectoryItemContainer = styled.div`
-  width: 300px;
-  height: 320px;
+  width: 100%;
+  max-width: 150px;
+  aspect-ratio: 1 / 1.05;
+  height: auto;
   margin: 1rem;
   border-radius: 16px;
   background-color: #1e1e1e;
@@ -23,8 +25,8 @@ export const DirectoryItemContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 200px;
-    height: 220px;
+    width: 180px;
+    height: auto;
   }
 `;
 
@@ -33,6 +35,7 @@ export const BackgroundImage = styled.img`
   height: 64px;
   object-fit: contain;
   margin-bottom: 1rem;
+  padding-top: 5%
 `;
 
 export const Body = styled.div`
