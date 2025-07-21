@@ -6,6 +6,7 @@
   padding: 15px 0;
   font-size: 20px;
   align-items: center;
+  justify-content: space-between;
 
   .image-container {
     width: 23%;
@@ -13,22 +14,27 @@
 
     img {
       width: 100%;
-      height: 100%;
+      height: auto;
       max-height: 200px;
       max-width: 150px;
+      object-fit: contain;
     }
   }
+
   .name,
   .quantity,
   .price {
     width: 23%;
+    text-align: center;
   }
 
   .quantity {
     display: flex;
+    justify-content: center;
+    align-items: center;
 
     .arrow {
-      cursor: pointer;  
+      cursor: pointer;
     }
 
     .value {
@@ -39,5 +45,37 @@
   .remove-button {
     padding-left: 12px;
     cursor: pointer;
+    width: 8%;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 768px) {
+    font-size: 16px;
+
+    .image-container {
+      width: 20%;
+
+      img {
+        max-height: 80px;
+      }
+    }
+
+    .name,
+    .quantity,
+    .price {
+      width: 30%;
+      font-size: 14px;
+    }
+
+    .name {
+      display: -webkit-box;
+      //-webkit-line-clamp: 4; /* liczba widocznych linii */
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+
+    .remove-button {
+      font-size: 20px;
+    }
   }
 }
