@@ -11,7 +11,7 @@ export const NavBarContainer = styled.div`
   justify-content: space-between;
   margin-bottom: 25px;
   background-color: white;
-  border: 1px solid black;
+  border-bottom: 1px solid black;
 `;
 
 export const LogoContainer = styled(Link)`

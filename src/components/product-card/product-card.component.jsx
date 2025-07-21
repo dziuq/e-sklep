@@ -5,14 +5,15 @@ import { CartContext } from "../../contexts/cart.context";
 import "./product-card.styles.scss";
 
 const ProductCard = ({ product }) => {
-  const { name, price, obraz } = product;
-  const { addItemToCart, cartCount } = useContext(CartContext);
+  const { name, price, obraz, numer_znaku } = product;
+  const { addItemToCart } = useContext(CartContext);
   const addProductToCart = () => addItemToCart(product);
 
   return (
     <div className="product-card-container">
       <img src={obraz} alt={`${name}`} />
       <div className="footer">
+        <span className="numer-znaku">{numer_znaku}</span>
         <span className="name">{name}</span>
         <span className="price">cena {price}zł</span>
       </div>
