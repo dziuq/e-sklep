@@ -7,8 +7,7 @@ e-sklep to frontendowa aplikacja sklepu internetowego zbudowana w React.
 * [React](https://reactjs.org/)
 * [Firebase](https://firebase.google.com/) – autoryzacja i baza danych
 * [React Router](https://reactrouter.com/) – routing
-* Styled-Components - stylizacja komponentów
-* 
+* [Styled-Components](https://styled-components.com) – stylizacja komponentów
 
 🧩 Funkcje
 Logowanie i rejestracja użytkownika przez Firebase
