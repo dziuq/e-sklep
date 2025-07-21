@@ -44,7 +44,7 @@ export const Body = styled.div`
   align-items: center;
 
   h2 {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #ffffff;
     text-transform: uppercase;
     letter-spacing: 0.5px;
