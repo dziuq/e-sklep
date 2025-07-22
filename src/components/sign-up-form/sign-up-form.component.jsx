@@ -45,7 +45,7 @@ const SignUpForm = () => {
       resetFormFields();
     } catch (error) {
       if (error.code == "auth/email-already-in-use") {
-        alert("Email already in use");
+        alert("Email jest już w użyciu");
       }
       console.log("Error while creating an account", error);
     }
@@ -53,11 +53,11 @@ const SignUpForm = () => {
 
   return (
     <div className="sign-up-container">
-      <h2>Don't have an account?</h2>
-      <span>Sign up with your email and password</span>
+      <h2>Nie masz konta?</h2>
+      <span>Zarejsteruj się!</span>
       <form onSubmit={handleSubmit}>
         <FormInput
-          label="Display Name"
+          label="Nazwa użytkownika"
           type="text"
           id="name"
           name="displayName"
@@ -76,7 +76,7 @@ const SignUpForm = () => {
         />
 
         <FormInput
-          label="Password"
+          label="Hasło"
           type="password"
           id="password"
           name="password"
@@ -86,7 +86,7 @@ const SignUpForm = () => {
         />
 
         <FormInput
-          label="Confirm Password"
+          label="Powtórz hasło"
           type="password"
           id="confirmPassword"
           name="confirmPassword"
@@ -95,7 +95,7 @@ const SignUpForm = () => {
           onChange={handleChange}
         />
 
-        <Button  type="submit">Sign Up</Button>
+        <Button  type="submit">Zarejestruj się</Button>
       </form>
     </div>
   );

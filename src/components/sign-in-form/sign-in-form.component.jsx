@@ -39,14 +39,14 @@ const SignInForm = () => {
     } catch (error) {
       console.log(error.code);
       if (error.code == "auth/invalid-credential")
-        alert("Incorrect credentials");
+        alert("Nieprawidłowe dane logownia");
     }
   };
 
   return (
     <div className="sign-up-container">
-      <h2>Already have an account?</h2>
-      <span>Sign in with your email and password</span>
+      <h2>Masz już konto?</h2>
+      <span>Zaloguj się za pomocą emaila i hasła</span>
       <form onSubmit={handleSubmit}>
         <FormInput
           label="Email"
@@ -59,7 +59,7 @@ const SignInForm = () => {
         />
 
         <FormInput
-          label="Password"
+          label="Hasło"
           type="password"
           id="password"
           name="password"
@@ -69,9 +69,9 @@ const SignInForm = () => {
         />
 
         <div className="buttons-container">
-          <Button type="submit">Sign In</Button>
+          <Button type="submit">Zaloguj</Button>
           <Button type="button" buttonType={BUTTON_TYPE_CLASSES.google} onClick={signInWithGoogle}>
-            Google sign in
+            Zaloguj za pomocą Google
           </Button>
         </div>
       </form>

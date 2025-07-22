@@ -15,6 +15,7 @@ export const CartIconContainer = styled.div`
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  margin-bottom: 10px;
 `;
 export const ItemCount = styled.span`
   position: absolute;
