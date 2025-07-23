@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const DirectoryItemContainer = styled.div`
   width: 100%;
-  max-width: 150px;
+  max-width: 220px;
   aspect-ratio: 1 / 1.05;
   height: auto;
   margin: 1rem;
@@ -25,14 +25,14 @@ export const DirectoryItemContainer = styled.div`
   }
 
   @media (max-width: 768px) {
-    width: 180px;
+    width: 155px;
     height: auto;
   }
 `;
 
 export const BackgroundImage = styled.img`
-  width: 64px;
-  height: 64px;
+  width: 84px;
+  height: 68px;
   object-fit: contain;
   margin-bottom: 1rem;
   padding-top: 5%

@@ -1,21 +1,23 @@
-import { useContext } from "react";
-import { CartContext } from "../../contexts/cart.context";
+import { useSelector, useDispatch } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
 import './pop-up.styles.scss';
+import { selectShouldShowPopup } from "../../store/cart/cart.selector";
+import { setShouldShowPopup } from "../../store/cart/cart.action";
 
 const Popup = () => {
-  const { shouldShowPopup, setShouldShowPopup } = useContext(CartContext);
+  const shouldShowPopup = useSelector(selectShouldShowPopup)
+  const dispatch = useDispatch();
   const navigate = useNavigate();
 
   if (!shouldShowPopup) return null;
 
   const handleConfirm = () => {
-    setShouldShowPopup(false);
+    dispatch(setShouldShowPopup(false));
   };
 
   const handleCancel = () => {
-    setShouldShowPopup(false);
+    dispatch(setShouldShowPopup(false));
     navigate("/checkout");
   };
 
