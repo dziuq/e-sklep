@@ -13,7 +13,6 @@ const addCartItem = (cartItems, productToAdd) => {
         : cartItem
     );
   }
-
   return [...cartItems, { ...productToAdd, quantity: 1 }];
 };
 
@@ -54,7 +53,5 @@ export const clearItemFromCart = (cartItems, cartItemToClear) => {
 export const setIsCartOpen = (boolean) =>
   createAction(CART_ACTION_TYPES.SET_IS_CART_OPEN, boolean);
 
-export const setShouldShowPopup = (boolean) => {
-  console.log("dispatching popup:", boolean);
+export const setShouldShowPopup = (boolean) =>
   createAction(CART_ACTION_TYPES.SET_SHOULD_SHOW_POPUP, boolean);
-};

@@ -1,16 +1,20 @@
 import Button, { BUTTON_TYPE_CLASSES } from "../button/button.component";
 import { useDispatch, useSelector } from "react-redux";
-import { addItemToCart } from "../../store/cart/cart.action";
-import { selectCartItems } from "../../store/cart/cart.selector";
+import { addItemToCart, setShouldShowPopup } from "../../store/cart/cart.action";
+import { selectCartCount, selectCartItems } from "../../store/cart/cart.selector";
 
 import "./product-card.styles.scss";
 
 const ProductCard = ({ product }) => {
   const { name, price, obraz, numer_znaku } = product;
   const cartItems = useSelector(selectCartItems);
+  const cartCount = useSelector(selectCartCount);
   const dispatch = useDispatch();
 
-  const addProductToCart = () => dispatch(addItemToCart(cartItems, product));
+  const addProductToCart = () => {
+    dispatch(addItemToCart(cartItems, product));
+    if(cartCount == 0) dispatch(setShouldShowPopup(true));
+  }
 
   return (
     <div className="product-card-container">
